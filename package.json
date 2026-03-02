@@ -1,0 +1,20 @@
+{
+  "name": "llm-performance-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "plotly.js-dist-min": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/plotly.js": "^2.33.7",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}
